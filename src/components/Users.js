@@ -10,11 +10,11 @@ export default class Users extends Component{
         const usersList = allUsers.map((user, idx) => {
             return user.isEditing === true ? (
                 <tr key={idx}>
-                    <td><input type="text" ref={(val) => {this.uname = val}} required defaultValue={user.name}/></td>
-                    <td><input type="text" ref={(val) => {this.uemail = val}} required defaultValue={user.email}/></td>
-                    <td><input type="text" ref={(val) => {this.uphoneNum = val}} required defaultValue={user.phoneNum}/></td>
+                    <td><input className="form-control" type="text" ref={(val) => {this.uname = val}} required defaultValue={user.name}/></td>
+                    <td><input className="form-control" type="text" ref={(val) => {this.uemail = val}} required defaultValue={user.email}/></td>
+                    <td><input className="form-control" type="text" ref={(val) => {this.uphoneNum = val}} required defaultValue={user.phoneNum}/></td>
                     <td>
-                    <input type="button" value="Update" onClick={this.handleUpdate} ref={() => {this.idxNum = idx}} className="btn green"/>
+                    <input type="button" value="Update" onClick={this.handleUpdate} ref={() => {this.idxNum = idx}} className="btn btn-success btn-lg"/>
                     </td>
                 </tr> 
             ) : (
@@ -22,20 +22,21 @@ export default class Users extends Component{
                     <td>{user.name}</td>
                     <td>{user.email}</td>
                     <td>{user.phoneNum}</td>
-                    <td><button className="btn white black-text" onClick={() => pressEditBtn(idx)}>Edit</button>  |  <button className="btn red" onClick={()=>pressDelete(idx)}>Delete</button></td>
+                    <td><button className="btn btn-warning btn-lg" onClick={() => pressEditBtn(idx)}>Edit</button>  |  <button className="btn btn-danger btn-lg" onClick={()=>pressDelete(idx)}>Delete</button></td>
                 </tr>
             )
         })
         return(
-            <table className="striped">
-                <thead>
+            <table className="table table-dark table-striped table-hover table-sm">
+                <thead className="thead-light">
                     <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Action</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Phone Number</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className=".table-striped">
                     {usersList}
                 </tbody>
             </table>
