@@ -27,7 +27,7 @@ export default class Users extends Component{
             )
         })
         return(
-            <table className="table table-dark table-striped table-hover table-sm">
+            <table className="table table-dark table-striped table-hover table-sm ta">
                 <thead className="thead-light">
                     <tr>
                         <th scope="col">Name</th>

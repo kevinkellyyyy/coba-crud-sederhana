@@ -49,7 +49,7 @@ export default class Base extends Component{
     render(){
         return(
             <div className="container">
-                <h1>Coba CRUD dengan React Js</h1>
+                <h1 className="title">Coba CRUD dengan React Js</h1>
                 <Users allUsers={this.state.users} pressEditBtn={this.pressEditBtn} updateUser={this.updateUser} pressDelete={this.pressDelete} />
                 <AddUser addUser={this.addUser}/>
             </div>
