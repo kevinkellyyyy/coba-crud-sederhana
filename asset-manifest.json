@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/coba-crud-sederhana/static/css/main.5f361e03.chunk.css",
-    "main.js": "/coba-crud-sederhana/static/js/main.3e0ab941.chunk.js",
-    "main.js.map": "/coba-crud-sederhana/static/js/main.3e0ab941.chunk.js.map",
-    "runtime-main.js": "/coba-crud-sederhana/static/js/runtime-main.4060e207.js",
-    "runtime-main.js.map": "/coba-crud-sederhana/static/js/runtime-main.4060e207.js.map",
-    "static/js/2.c1e5f5b6.chunk.js": "/coba-crud-sederhana/static/js/2.c1e5f5b6.chunk.js",
-    "static/js/2.c1e5f5b6.chunk.js.map": "/coba-crud-sederhana/static/js/2.c1e5f5b6.chunk.js.map",
-    "index.html": "/coba-crud-sederhana/index.html",
-    "precache-manifest.1de47ea8c3ca674b6f53f79b0ddafbd7.js": "/coba-crud-sederhana/precache-manifest.1de47ea8c3ca674b6f53f79b0ddafbd7.js",
-    "service-worker.js": "/coba-crud-sederhana/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/coba-crud-sederhana/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c1e5f5b6.chunk.js.LICENSE.txt": "/coba-crud-sederhana/static/js/2.c1e5f5b6.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/coba-crud-sederhana/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.e0bda197.chunk.css",
+    "main.js": "/static/js/main.76778ab9.chunk.js",
+    "main.js.map": "/static/js/main.76778ab9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c3bcb74f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c3bcb74f.js.map",
+    "static/js/2.c1e5f5b6.chunk.js": "/static/js/2.c1e5f5b6.chunk.js",
+    "static/js/2.c1e5f5b6.chunk.js.map": "/static/js/2.c1e5f5b6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.619780eabf3b12d6e33f3b0d8810e0db.js": "/precache-manifest.619780eabf3b12d6e33f3b0d8810e0db.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e0bda197.chunk.css.map": "/static/css/main.e0bda197.chunk.css.map",
+    "static/js/2.c1e5f5b6.chunk.js.LICENSE.txt": "/static/js/2.c1e5f5b6.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4060e207.js",
+    "static/js/runtime-main.c3bcb74f.js",
     "static/js/2.c1e5f5b6.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.3e0ab941.chunk.js"
+    "static/css/main.e0bda197.chunk.css",
+    "static/js/main.76778ab9.chunk.js"
   ]
 }
