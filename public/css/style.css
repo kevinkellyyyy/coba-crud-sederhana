@@ -1,6 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     font-size: 60px;
     padding-bottom: 30px;
+    text-shadow: 2px 2px 8px black;
 }
 
 @media only screen and (max-width: 1000px){
